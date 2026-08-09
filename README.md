@@ -76,13 +76,13 @@ common services.
 Basic recon:
 
 ```bash
-python3 smartscan.py -H 10.129.56.124
+python3 smartscan.py -H 10.10.10.10
 ```
 
 Recon + vhost fuzzing against a known zone, capped at 5 minutes:
 
 ```bash
-python3 smartscan.py -H 10.129.56.124 \
+python3 smartscan.py -H 10.10.10.10 \
   -vhost danglingtree.htb \
   -vhost-list /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt \
   -vhost-time 300
@@ -92,7 +92,7 @@ Restrict nmap to specific ports (skips the cached `nmap-scan.txt`, since the
 requested scope may differ):
 
 ```bash
-python3 smartscan.py -H 10.129.56.124 -p 80,443,3389
+python3 smartscan.py -H 10.10.10.10 -p 80,443,3389
 ```
 
 ## Output
