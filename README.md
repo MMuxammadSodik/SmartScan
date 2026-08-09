@@ -109,7 +109,3 @@ This tool is intended for authorized security testing and CTF/lab
 environments (e.g. HackTheBox, TryHackMe) only. Only run it against systems
 you own or have explicit written permission to test. The author takes no
 responsibility for misuse.
-
-## License
-
-Add a license of your choice (MIT is a common default for tools like this).
